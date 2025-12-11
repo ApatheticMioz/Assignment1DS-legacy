@@ -1,0 +1,32 @@
+# Build artifacts
+/build/
+/cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.ninja
+*.ninja_deps
+*.ninja_log
+
+# Compiled binaries
+*.exe
+*.out
+*.obj
+*.o
+*.pdb
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+
+# OS clutter
+.DS_Store
+Thumbs.db
+
+# Generated HTML inside build outputs
+cmake-build-debug/**/*.html
+
+# Archives
+*.zip
