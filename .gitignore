@@ -33,9 +33,9 @@ browser_history
 .DS_Store
 Thumbs.db
 
-# Generated HTML (runtime artifacts)
-*.html
-!index.html
+# Generated HTML (runtime artifacts from browser_history)
+# These are generated during runtime and should not be committed
+# *.html  # Uncomment if you want to ignore generated HTML files
 
 # Archives
 *.zip

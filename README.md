@@ -1,6 +1,6 @@
 # cache-browser-sim-cpp
 
-> **Status:** Archived / Refactored
+> **Status:** Standardized for Public Archival
 
 A collection of C++20 data structures exercises demonstrating linked list implementations through two interactive simulators:
 
