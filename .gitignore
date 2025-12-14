@@ -15,18 +15,46 @@ Makefile
 *.obj
 *.o
 *.pdb
+*.a
+*.so
+*.dylib
+cache_sim
+browser_history
 
 # IDE files
 .idea/
 .vscode/
 *.iml
+*.swp
+*.swo
+*~
 
 # OS clutter
 .DS_Store
 Thumbs.db
 
-# Generated HTML inside build outputs
-cmake-build-debug/**/*.html
+# Generated HTML (runtime artifacts from browser_history)
+# These are generated during runtime and should not be committed
+# *.html  # Uncomment if you want to ignore generated HTML files
 
 # Archives
 *.zip
+*.rar
+*.7z
+*.tar.gz
+
+# Node.js (if ever added)
+node_modules/
+dist/
+
+# Python (if ever added)
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# Temporary files
+temp.csv
+*.tmp
+*.bak
