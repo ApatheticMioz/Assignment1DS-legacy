@@ -1,6 +1,3 @@
-// Muhammad Abdullah ALi
-// i23-2523
-// Data Structures Assignment Number 1
 
 #include <iostream>
 #include <fstream>
